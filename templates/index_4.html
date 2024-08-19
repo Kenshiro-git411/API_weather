@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>天気予報</h1></header>
+    <main>
+        <div>
+            <select name="todofuken" id="todofuken" >
+                <option value="notselected">4つの選択肢を表示</option>
+                <option value="hokkaido">北海道</option>
+                <option value="tokyo">東京都</option>
+                <option value="shizuoka">静岡県</option>
+                <option value="kyoto">京都府</option>
+            </select>
+        </div>
+        <div>
+            <select name="area-name" id="area-name" disabled>
+                <option disabled selected>地域を選択してください。</option>
+            </select>
+        </div>
+        <div>
+            <p id="tenki_detail"></p>
+        </div>
+        <div id="tenkiImageArea"></div>
+    </main>
+</body>
+<script src="scripts/main_4_20240715.js"></script>
+</html>
